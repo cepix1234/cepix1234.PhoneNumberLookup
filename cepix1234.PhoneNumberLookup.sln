@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3FEBE8B-4F8B-44CF-8EC7-1AB247ABD1E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1FFDF6E9-04F4-4E49-BE7B-617605225F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.PhoneNumberLookup.Console", "src\cepix1234.PhoneNumberLookup.Console\cepix1234.PhoneNumberLookup.Console.csproj", "{A7002FB7-89B4-4733-94E9-E2989205A66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.PhoneNumberLookup.Core", "src\cepix1234.PhoneNumberLookup.Core\cepix1234.PhoneNumberLookup.Core.csproj", "{423670CF-2FFF-4DE6-81B7-BADA3296E857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.PhoneNumberLookup.UnitTests", "tests\cepix1234.PhoneNumberLookup.UnitTests\cepix1234.PhoneNumberLookup.UnitTests.csproj", "{011A9B91-C54F-4BD3-B9DA-70C0FC6CCFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.PhoneNumberLookup.Infrastructure", "src\cepix1234.PhoneNumberLookup.Infrastructure\cepix1234.PhoneNumberLookup.Infrastructure.csproj", "{55447866-F38F-46C8-9FB9-C03405649ADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7002FB7-89B4-4733-94E9-E2989205A66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7002FB7-89B4-4733-94E9-E2989205A66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7002FB7-89B4-4733-94E9-E2989205A66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7002FB7-89B4-4733-94E9-E2989205A66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423670CF-2FFF-4DE6-81B7-BADA3296E857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423670CF-2FFF-4DE6-81B7-BADA3296E857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423670CF-2FFF-4DE6-81B7-BADA3296E857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423670CF-2FFF-4DE6-81B7-BADA3296E857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011A9B91-C54F-4BD3-B9DA-70C0FC6CCFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011A9B91-C54F-4BD3-B9DA-70C0FC6CCFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011A9B91-C54F-4BD3-B9DA-70C0FC6CCFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011A9B91-C54F-4BD3-B9DA-70C0FC6CCFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55447866-F38F-46C8-9FB9-C03405649ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55447866-F38F-46C8-9FB9-C03405649ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55447866-F38F-46C8-9FB9-C03405649ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55447866-F38F-46C8-9FB9-C03405649ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7002FB7-89B4-4733-94E9-E2989205A66B} = {D3FEBE8B-4F8B-44CF-8EC7-1AB247ABD1E8}
+		{423670CF-2FFF-4DE6-81B7-BADA3296E857} = {D3FEBE8B-4F8B-44CF-8EC7-1AB247ABD1E8}
+		{011A9B91-C54F-4BD3-B9DA-70C0FC6CCFDB} = {1FFDF6E9-04F4-4E49-BE7B-617605225F3D}
+		{55447866-F38F-46C8-9FB9-C03405649ADE} = {D3FEBE8B-4F8B-44CF-8EC7-1AB247ABD1E8}
+	EndGlobalSection
+EndGlobal

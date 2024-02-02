@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameWork>net7.0</TargetFrameWork>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.2.0"/>
+        <PackageReference Include="Spectre.Console" Version="0.47.0"/>
+        <PackageReference Include="Spectre.Console.Cli" Version="0.47.0"/>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\cepix1234.PhoneNumberLookup.Core\cepix1234.PhoneNumberLookup.Core.csproj">
+        <Project>{423670cf-2fff-4de6-81b7-bada3296e857}</Project>
+        <Name>cepix1234.PhoneNumberLookup.Core</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\cepix1234.PhoneNumberLookup.Infrastructure\cepix1234.PhoneNumberLookup.Infrastructure.csproj">
+        <Project>{55447866-f38f-46c8-9fb9-c03405649ade}</Project>
+        <Name>cepix1234.PhoneNumberLookup.Infrastructure</Name>
+      </ProjectReference>
+    </ItemGroup>
+</Project>
