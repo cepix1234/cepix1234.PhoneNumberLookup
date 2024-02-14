@@ -5,6 +5,8 @@
         <TargetFrameWork>net7.0</TargetFrameWork>
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <UseRidGraph>true</UseRidGraph>
+        <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
     </PropertyGroup>
 
     <ItemGroup>
