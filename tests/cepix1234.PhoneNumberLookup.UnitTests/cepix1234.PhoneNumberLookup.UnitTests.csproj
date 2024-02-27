@@ -4,11 +4,12 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
         <UseRidGraph>true</UseRidGraph>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
         <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+        <UseAppHost>false</UseAppHost>
     </PropertyGroup>
 
     <ItemGroup>

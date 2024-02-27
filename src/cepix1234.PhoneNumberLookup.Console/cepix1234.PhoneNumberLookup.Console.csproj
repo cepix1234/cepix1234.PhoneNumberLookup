@@ -6,7 +6,9 @@
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <UseRidGraph>true</UseRidGraph>
+        <SelfContained>true</SelfContained>
         <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+        <PublishSingleFile>true</PublishSingleFile>
     </PropertyGroup>
 
     <ItemGroup>

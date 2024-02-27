@@ -25,6 +25,7 @@ RegisterServices(serviceCollection);
 
 using var registrar = new DependencyInjectionRegistrar(serviceCollection);
 var app = new CommandApp(registrar);
+app.SetDefaultCommand<InteractiveCommand>();
 app.Configure(
     config =>
     {
